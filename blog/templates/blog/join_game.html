@@ -1,0 +1,20 @@
+{% extends 'blog/base.html'%}
+
+{% load static %}
+
+
+{% block content %}
+        <nav>
+            <h4><a href="/"> Home </a> </h4>
+            <p><a href="/create-game"> Spiel erstellen </a></p>
+            <p><a href="/join-game"> Spiel beitreten</a></p>
+        </nav>
+    <article>
+        {% for game in games%}
+        <h2><a href="{%url 'lobby' pk=post.pk %}"> {{ game.key }} </a></h2>
+        <p> {{player.number}} </p>
+        <p> {{werwolf.number}} </p>
+        {% endfor%}
+
+    </article>
+{% endblock %}

@@ -22,6 +22,7 @@ class Game(models.Model):
     include_blinzel = models.BooleanField(default=False)
     include_seher = models.BooleanField(default=False)
     include_hexe = models.BooleanField(default=False)
+    include_jaeger = models.BooleanField(default=False)
 
     def __str__(self):
         return self.game_key

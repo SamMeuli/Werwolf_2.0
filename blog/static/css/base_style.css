@@ -1,0 +1,54 @@
+* {box-sizing: border-box}
+
+body{
+    font-family: Arial ,Helvetica, sans-serif;
+    background-color: #D0D0D0;
+}
+
+body h1 {
+font-family: 'Lobster';
+}
+
+body p {
+font-size: 20px;
+padding-left: 50px;
+margin-left: 50px;
+}
+
+header {
+background-color: #A80000;
+padding: 30px;
+
+}
+
+nav{
+float: left;
+width: 20%;
+background: #ccc;
+padding: 20px;
+height: 80%;
+}
+nav a{
+color: #000000;
+text-decoration: none;
+}
+
+
+
+article{
+float: left;
+padding: 20px;
+width: 80%;
+height: 80%;
+}
+
+body a{
+color: #000000;
+text-decoration: none;
+}
+
+button a{
+margin-left: 40%;
+color: #000000;
+text-decoration: none;
+}
